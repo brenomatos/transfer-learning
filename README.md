@@ -15,9 +15,13 @@ For every model created, we can compare accuracy and loss for train/test:
 
 
 Also, for every model, a Acc/Loss comparison graph is created:
-[Test Acc/Loss](/images/testaccloss.png "Test Acc/Loss")
+
+![Test Acc/Loss](/images/testaccloss.png "Test Acc/Loss")
+
+
 
 Also, we plot graphs comparing all models. For train/test, we plot accuracy and loss for all models, as examplified below:
+
 ![Train Acc All](/images/trainaccall.png "All Train Acc")
 ![Train Loss ALl](/images/trainlossall.png "All Train Loss")
 
