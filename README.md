@@ -12,6 +12,8 @@ Here are some examples of graphs created using code in this repository
 For every model created, we can compare accuracy and loss for train/test:
 ![Train/Test Acc](/images/traintestacc.png "Acc Graph")
 ![Train/Test Loss](/images/traintestloss.png "Loss Graph")
+
+
 Also, for every model, a Acc/Loss comparison graph is created:
 ![Test Acc/Loss](/images/testaccloss.png "Test Acc/Loss")
 
