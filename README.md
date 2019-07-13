@@ -8,7 +8,7 @@ contains analisys regarding the methods used, along with code and graphs.
 
 
 # Graphs Examples
-
+![Example Graph: Type 1](/images/testaccall.png "Example Graph")
 
 # Built With
 [Keras](https://keras.io)
