@@ -260,7 +260,7 @@ modelA.compile(optimizer, loss="categorical_crossentropy", metrics=["accuracy"])
 
 result_b3 = modelA.fit(Bx_train,By_train,epochs=EPOCHS,validation_data=(Bx_test,By_test))
 
-plot_acc_loss(result_b3,"Model M4: Train/Test Accuracy=","Train Acc","Test Acc","acc")
+plot_acc_loss(result_b3,"Model M4: Train/Test Accuracy","Train Acc","Test Acc","acc")
 plot_acc_loss(result_b3,"Model M4: Train/Test Loss","Train Loss","Test Loss","loss")
 
 plot_compare_acc_loss(result_b3,"Model M4: Test Acc/Loss")
@@ -296,8 +296,8 @@ compare_models(result_a,result_b1,result_b2,result_b3,"val_acc","Test Accuracy: 
 ### Loss Comparison
 """
 
-compare_models(result_a,result_b1,result_b2,result_b3,"loss","Loss de Treino: 4 Modelos")
-compare_models(result_a,result_b1,result_b2,result_b3,"val_loss","Loss de Teste: 4 Modelos")
+compare_models(result_a,result_b1,result_b2,result_b3,"loss","Train Loss: All Models")
+compare_models(result_a,result_b1,result_b2,result_b3,"val_loss","Test Loss: All Models")
 
 """Correspondingly, models that used transfer-learning were the ones with the lowest loss values, with the overall lowest being model M4. Furthermore, all models converge correctly, without overfitting.
 
