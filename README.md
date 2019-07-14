@@ -1,6 +1,5 @@
 # Transfer Learning
-Transfer learning assignment from Machine Learning class @ UFMG
-
+Transfer learning assignment from Machine Learning class @ UFMG. If You want further description for the assignment, you can read the assignment's description [here](SpecificationTP2.pdf).
 
 # Jupyter Notebook
 In this repo, You'll find both a jupyter notebook and a regular python scipt. You can choose which to use, given your application. However, the jupyter notebook
