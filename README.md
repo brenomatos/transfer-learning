@@ -7,8 +7,7 @@ Transfer learning or inductive transfer is a research problem in machine learnin
 
 Here, we use the the [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) dataset, which consists of 60000 32x32 colour images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images.
 
-First, we split the dataset into two groups A and B. the latter contains classes 0 and 7 and the former contains the remaining classes. Then, 4 models are created:
-* CNN with dataset A: Train a CNN from scratch using the A dataset.
+First, we split the dataset into two groups A and B. the latter contains classes 0 and 7 and the former contains the remaining classes. Then, we train a CNN from scratch using only the A dataset.
 
 Then, we test three strategies to train a model using the B dataset:
 * No Transfer Learning: Train the network from scratch, initialising the weights randomly.
