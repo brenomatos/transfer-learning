@@ -26,7 +26,7 @@ Also, we plot graphs comparing all models. For train/test, we plot accuracy and 
 ![Train Acc All](/images/trainaccall.png "All Train Acc")
 ![Train Loss ALl](/images/trainlossall.png "All Train Loss")
 ![Test Acc All](/images/testaccall.png "All Test Acc")
-![Test Loss All](/images/testlossall.png "All Loss Acc")
+![Test Loss All](/images/testlossall.png "All Test Loss")
 # Built With
 [Keras](https://keras.io)
 
